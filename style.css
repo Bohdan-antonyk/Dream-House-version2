@@ -1,0 +1,288 @@
+html, body {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 0;
+    padding: 0;
+    transition: 3s;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: #585858;
+}
+
+.main__button {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    width: 205px;
+    height: 56px;
+    left: 739px;
+    top: 3044px;
+    background: #FD665E;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.df {
+    display: flex;
+}
+
+.space-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-family: 'Merriweather', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 124%;
+    letter-spacing: -0.04em;
+    color: #000000;
+}
+
+.page-wrapper {
+    max-width: 1440px;
+    min-width: 731px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.content-row {
+    display: flex;
+    align-items: center;
+}
+
+.gap {
+    gap: 0 10px;
+}
+
+.link {
+    margin: 0 24px;
+    color: #585858;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: inherit;
+    border: none;
+}
+
+.header {
+    height: 96px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__navigation {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header__logo-link {
+    margin-right: 60px;
+}
+
+.header__link {
+    font-weight: 400;
+}
+
+.button__transparent {
+    background-color: inherit;
+    padding: 4px 24px;
+}
+
+.button__red-square {
+    height: 48px;
+    color: #FFF;
+    background: #FD665E;
+    border-radius: 4px;
+}
+
+.button__red-square--primary {
+    height: 48px;
+    padding: 4px 24px;
+    background: #FD665E;
+    border-radius: 4px;
+    font-weight: 900;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.link:focus,
+.link:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+/*main*/
+
+/*benefits-section*/
+
+.benefits-section {
+    padding: 50px 165px 110px 165px;
+}
+
+.benefits-section__title {
+    font-family: 'Merriweather', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 112px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #000000;
+    margin: 50px 0;
+}
+
+.color-tomato {
+    color: #FD665E;
+}
+
+.page-title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.benefits-text {
+    margin-right: 55px;
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2) {
+    .benefits-image {
+        background-image: url(img/png/section_one-2x.png);
+        background-size: cover;
+    }
+}
+
+/*for__instance section*/
+
+.for-instance {
+    padding: 0 50px 30px 50px;
+}
+
+.our__gallery {
+    margin-top: 40px;
+}
+
+.box {
+    overflow: hidden;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+/*your-needs section*/
+
+.your-needs {
+    padding: 65px 165px;
+}
+
+.list {
+    margin-left: 155px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-icon {
+    margin-right: 40px;
+}
+
+.bold {
+    font-weight: 700;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.max-width {
+    max-width: 295px;
+}
+
+.button-top {
+    margin-top: 70px;
+}
+
+/*last-section section*/
+
+.last-section {
+    min-height: 812px;
+    background: linear-gradient(180deg, #F9F9F9 22.12%, rgba(249, 249, 249, 0) 100%);
+}
+
+.wrapper__content-section {
+    margin-left: 120px;
+}
+
+.wrapper__content-section .main__button {
+    margin-top: 65px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*footer*/
+
+.footer {
+    padding: 80px 165px;
+}
+
+.footer__nav-link {
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 40px;
+    letter-spacing: 0.01em;
+    color: #585858;
+    margin: 0 24px;
+}
+
+.footer__nav-link:nth-child(1) {
+    margin-left: 0;
+}
