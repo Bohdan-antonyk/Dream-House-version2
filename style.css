@@ -232,6 +232,11 @@ a {
     margin-right: 40px;
 }
 
+.box__icon-svg {
+    fill: none;
+}
+
+
 .bold {
     font-weight: 700;
     line-height: 160%;
@@ -285,4 +290,19 @@ a {
 
 .footer__nav-link:nth-child(1) {
     margin-left: 0;
+}
+
+
+/*hover effect */
+
+
+.main__button:hover,.button__red-square:hover {
+    border: 1px solid #FD665E;
+    background-color: transparent;
+    color: #FD665E;
+    transition: 0.5s ease-in-out;
+}
+
+.button {
+    cursor: pointer;
 }
